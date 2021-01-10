@@ -1,8 +1,9 @@
 def myfunc():
     global x
-    x "fantastic"
+    x = "fantastic"
+
 
 myfunc()
 print("python is " + x)
 
-#output : python is fantastic
+# output : python is fantastic
