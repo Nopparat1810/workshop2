@@ -2,14 +2,17 @@
 string = "I am the best programmer"
 lenStr = len(string)
 print(lenStr)
+#print(len("I am the best programmer"))
 
 #จงเขียนคำสั่งเพื่อแสดงอักษรแรกของข้อความ "I am the best programmer"
 firststring = string[0]
 print(firststring)
+#print("I am the best programmer"[0])
 
 #จงเขียนคำสั่งเพื่อแสดง "best" ของข้อความ "I am the best programmer"
 fastest = string[9:13]
 print(fastest)
+#print("I am the best programmer"[9:13])
 
 #จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ที่ไม่มี space
 print(string.replace(" ", ""))
@@ -21,7 +24,7 @@ print(string.upper())
 print(string.lower())
 
 #จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ที่ถูกแทนที่อักษร e ด้วย z ทั้งหมด
-print(string.replace("e"))
+print(string.replace("e","z"))
 
 #จงเติมคำในช่องว่าเพื่อแสดงชื่อ
 myname = "Nopparat"
