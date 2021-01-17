@@ -1,6 +1,6 @@
 # จงแสดง "rat"
 animal = ["cat", "bat", "rat", "dog"]
-print(animal(2))
+print(animal[2])
 
 # จงแก้ไขข้อมูลจาก "cat" เป็น "hen"
 animal = ["cat", "bat", "rat", "dog"]
@@ -23,7 +23,7 @@ print(animal)
 
 # จงแสดงตัวสุดท้ายของ animal
 animal = ["cat", "bat", "rat", "dog"]
-print(animal[3])
+print(animal[-1])
 
 # จงแสดงจำนวนของ animal
 animal = ["cat", "bat", "rat", "dog"]
