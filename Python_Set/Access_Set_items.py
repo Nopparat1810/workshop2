@@ -4,6 +4,6 @@ for x in thislist:
     print(x)
 
     
-fluits =  {"apple", "banana", "cherry"}
-if "apple" in fluits
+fluit =  {"apple", "banana", "cherry"}
+if "apple" in fluit
     print("Yes, apple is a fluit!")
