@@ -183,12 +183,16 @@ for i in range(11):
 
 
 
-i = 12
-while i > 1:
-    print(f"[{i}]")
-    m = 1
-    while m <= 12:
-        print(f"{i} * {m} : {i*m}")
-        m += 1
-    print("---------------------")
-    i -= 1
+# i = 12
+# while i > 1:
+#     print(f"[{i}]")
+#     m = 1
+#     while m <= 12:
+#         print(f"{i} * {m} : {i*m}")
+#         m += 1
+#     print("---------------------")
+#     i -= 1
+
+#ctrl + ? all comment
+
+
